@@ -11,7 +11,7 @@ VueRouter.prototype.push = function push (location) {
   return originalPush.call(this, location).catch((err) => err)
 }
 
-Vue.use(VueRouter) // 全局引入路由
+Vue.use(VueRouter) // 全局引入路由  
 
 // 静态路由
 const routes = [{
